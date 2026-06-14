@@ -7,9 +7,18 @@
 
 **Records:** 550,000+ transactions
 
-**Features:** 30 variables (V1–V28, Amount, Class)
+### Key Features Include:
+* V1 – V28 (anonymized PCA-transformed transaction features)
+* Amount (transaction value)
+* Class (fraud indicator)
 
 **Target:** Class (0 = Legitimate Transaction, 1 = Fraudulent Transaction)
+
+### PCA-Based Features
+
+* The original transaction variables were transformed using Principal Component Analysis (PCA) to protect sensitive customer information.
+* Features V1–V28 represent the principal components that retain important patterns and variance from the original data.
+* This anonymization preserves privacy while enabling effective fraud detection analysis.
 
 The dataset contains anonymized transaction features and is highly imbalanced, with fraudulent transactions representing a very small percentage of all records.
 
